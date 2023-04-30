@@ -1,0 +1,41 @@
+
+
+```<???>
+Add new line
+Add Your content here
+Add new line
+```
+
+Consider:
+- Always specify <???>
+- In the "new line", avoid empty spaces
+-
+
+For URL:
+1. If you use an absolute URL, you can use:
+
+- https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process
+
+2. Only use alias for URL, if have it:
+
+- [Start Process Cmdlet](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/start-process?view=powershell-7.3)
+
+But remember to be enough clear to the user:
+- Do not use long URL with encoded texts like base64, in this case, prefer using alias
+- When using alias, be clear to the alias name!
+
+
+
+Folder Structure
+
+Topic
+  |
+  +- Markdown Files
+  |  image folder
+  |
+  +- README.md
+  +- guidelines.txt
+  +- Links.md
+
+Do not use a file called `TODO.md`. You can create an issue on Github and track its progress.
+

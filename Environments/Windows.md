@@ -6,17 +6,20 @@ Help
 ----
 
 ```powershell
+
 # Get Command Help
 # https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/get-help
 Get-Help <command>
 Get-Help <command> -Detailed
 Get-Help <command> -Full
+
 ```
 
 Remove files and directories (recursively)
 ------------------------------------------
 
 ```powershell
+
 # Remove directory recursively
 Remove-Item -Path out/ -recurse -force
 Remove-Item -Path E:/TEMP/out -recurse -force
@@ -53,6 +56,7 @@ Environment Path
 ----------------
 
 ```powershell
+
 # Print environment variables
 Get-ChildItem env:
 
@@ -134,4 +138,5 @@ Get-Process | Where-Object {$_.HasExited}
 
 # Get Process and Stop it
 Get-Process -Name <Process Name> | Stop-Process -Force
+
 ```
